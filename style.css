@@ -1,0 +1,140 @@
+#banner {
+    height:90vh;
+background: url(fairy-fantasy-forest-at-night.webp);
+background-size: cover;
+
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-brand {
+    background-color: transparent;
+    border: 2px solid rgb(126, 143, 229);
+    color: rgb(33, 131, 149);
+}
+
+.btn-brand:hover {
+    background-color: rgb(93, 237, 198);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 107, 121);
+}
+section {
+    padding: 100px 0;
+
+}
+#about h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(119, 241, 200);
+}
+#about .btn-brand:hover{
+    color: rgb(4, 93, 121) !important;
+    border-color: #06a5d5 !important;
+    background-color: rgb(73, 184, 227);
+}
+#about {
+    background-color:rgb(143, 223, 255);
+}
+.bisag-unsa{
+    width:40%;
+}
+#services .btn-brand:hover {
+    color: rgb(75, 75, 73) !important;
+    border-color: rgb(69, 155, 167) !important;
+}
+.card{
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border);
+    border-radius: 30px;
+}
+.card:hoover {
+    background-color: black;
+}
+.card:hoover .card-title,
+.card:hoover .card-text,
+.card:hoover.btn{
+    color: rgb(240, 152, 70);
+}
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(162, 255, 250);
+}
+#services{
+    background-color: rgb(69, 141, 185);
+}
+
+#cta {
+    height:70hv ;
+background: url(vibrant\ fantasy\ forest.jpg);
+background-size: cover;
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+#reviews{
+    background-color: beige;
+}
+.testimonials img {
+    width: 200px;
+    background-color: bisque;
+}
+.testimonials{
+    border: 2px solid rgb(69, 141, 185);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#faq{
+    background-color: beige;
+}
+.fac-section{
+    max-width: 800px;
+    margin: auto;
+
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+
+}
+.accordion-button{
+    background-color: rgb(145, 147, 253);
+    border: none;
+    border-bottom: 1px solid #3eb3fd;
+    border-radius: 0 !important;
+    padding: 18px;
+    font-weight: 500;
+    color: rgb(183, 172, 255);
+    cursor: pointer;
+    transition: background-color 0.3s, color o.3s;
+
+}
+.accordion-body{
+    border-left: 3px solid rgb(50, 81, 101);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: azure;
+
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(33, 131, 149);
+    color: antiquewhite;
+}
+.accordion-button:hover{
+    background-color: rgb(33, 131, 149);
+    color: beige;
+}
